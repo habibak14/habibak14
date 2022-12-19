@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "poppins" sans-serif;
+	background: #fff;
+
+
+}
+img{  
+	max-width: 100%;
+	height:auto;
+	display: block;
+}
+.header{
+	background:#2d3436;
+}
+.menu ul{
+	display: flex;
+	justify-content: center;
+	list-style:none; 
+  }
+  .menu ul li a {
+  	color: #fff;
+  	text-decoration: none;
+  	padding: 10px 20px;
+  	display: block;
+  	text-transform: capitalize;
+
+  }
+  .menu-button{
+    display: none;
+  }
+	
+.section-1{
+
+	background: #00cec9;
+	padding: 50px 25px;
+}	
+
+.section-1 h2{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+
+.section-1 p{
+	color: #fff;
+	font-size: 18px;
+
+}
+.section-1 a{
+	display: none;
+}
+
+
+.section-2{
+	background: #a29bfe;
+	padding: 100px 0;
+}
+.container{
+
+	width: 85%;
+	margin:  auto;
+}
+.section-2 p{
+	text-align: justify;
+}
+
+
+.gallery{
+	
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+
+
+}
+.photos{
+	width: 23.5%;
+}
+
+
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+
+.section-1{
+	background: #ff7675;
+
+   }
+ .section-1 h2{
+ 	color: #a29bfe
+ }
+ .section-1 p{
+ 	color:#fdcb6e ;
+ }
+ .photo{
+	width: 49%;
+	margin-bottom: 20px;
+}
+
+
+}
+/*end*/
+
+@media(max-width: 600px){
+	.header{
+		background: #fdcb6e;
+	}
+	.menu{
+		display: none;
+	}
+	.menu-button{
+		display: block;
+		text-align: center;
+	}
+	.menu-button span{
+		color:#636e72;
+		padding: 10px 20px;
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 500px){
+
+.section-1{
+	background: #2d3436;
+}	
+
+.section-1 h2{
+color: #e17055;
+text-align: center;
+}
+.section-1 p{
+	color: #fab1a0;
+	text-align: center;
+}
+.section-1 a{
+	display: block;
+	border:1px solid #b2bec3 ;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 10px;
+	padding: 10px 0;
+	text-transform: uppercase;
+	color: #fff;
+
+}
+.photo{
+	width: 100%;
+/*end*/	
+}
